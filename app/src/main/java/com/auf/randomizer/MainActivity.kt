@@ -30,13 +30,13 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
             }
             (R.id.MotButton)->{
                 val intent = Intent(this,GetRandomQuotes::class.java)
-                intent.putExtra("Quotes","motivational")
+                intent.putExtra("Quotes","moti")
                 startActivity(intent)
 
             }
             (R.id.InspiButton)->{
                 val intent = Intent(this,GetRandomQuotes::class.java)
-                intent.putExtra("Quotes","inspirational")
+                intent.putExtra("Quotes","inspi")
                 startActivity(intent)
 
             }

@@ -11,7 +11,6 @@ class lovequotes : AppCompatActivity() {
     companion object{
         fun getQuotess2(): String? {
             val numbers = Random.nextInt(1,11)
-           // var a = lovequotes.get(numbers)
             var a = lovequotes[numbers]
             return a
 

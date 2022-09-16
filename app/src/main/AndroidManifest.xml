@@ -14,9 +14,6 @@
         android:theme="@style/Theme.Randomizer"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
             android:name=".GetRandomQuotes"
             android:exported="false" />
         <activity

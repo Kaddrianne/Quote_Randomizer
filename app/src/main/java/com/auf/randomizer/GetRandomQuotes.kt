@@ -29,7 +29,15 @@ class GetRandomQuotes : AppCompatActivity(), View.OnClickListener {
                     binding.TextView10.text=LoveRandomizer
                 }
             }
+            (R.id.MotButton)->{
+                if(QQuote=="moti"){
+                    val motiRandomizer=lovequotes.getQuotess2()
+                    binding.TextView10.text=motiRandomizer
+                }
+            }
         }
+
+
 
     }
 }
